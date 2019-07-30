@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Segoe UI, Tahoma, sans-serif;
+}
+
+.Sample {
+  input, button {
+    font: inherit;
+  }
+
+  header {
+    background-color: rgb(50, 54, 57);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    padding: 20px;
+    color: white;
+
+  }
+
+  &__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px 0;
+    padding: 10px;
+
+
+
+    &__content {
+      flex-basis: 420px;
+      flex-direction: column;
+      padding-top: 1em;
+
+      .react-calendar {
+        margin: 0;
+      }
+    }
+  }
+}

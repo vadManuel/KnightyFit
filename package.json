@@ -1,0 +1,42 @@
+{
+  "name": "knighty-fit",
+  "version": "1.2.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "*",
+    "firebase": "*",
+    "react": "*",
+    "react-datepicker": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "react-with-firebase-auth": "*",
+    "reactstrap": "*",
+    "react-day-picker": "*",
+    "react-scroll": "*",
+    "react-avatar": "*",
+    "recharts": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

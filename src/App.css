@@ -1,0 +1,46 @@
+.hr-text {
+    text-align: center;
+    overflow: hidden;
+    color: gray;
+}
+
+.hr-text > span {
+    position: relative;
+}
+
+.hr-text > span:before,
+.hr-text > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: gray;
+}
+
+.hr-text > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.hr-text > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.bg-knighty {
+    background-color: rgb(225,193,71);
+}
+
+.text-knighty {
+    color: rgb(225,193,71);
+}
+
+.hover-mobile-menu-link:hover {
+    background-color: white;
+    color: rgb(52,58,64);
+}
+
+.cmw {
+    max-width: 1025px;
+}
