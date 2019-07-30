@@ -20,7 +20,7 @@ export {
     knightyFit,
     knightyFitBorder,
     knightro,
-    searchWhite,
+    searchBlack,
     fancyBackground
 }
 

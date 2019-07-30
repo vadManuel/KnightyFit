@@ -1,7 +1,6 @@
 // React
 import React from 'react'
 import {
-    Jumbotron,
     Container,
     Alert,
     Card,

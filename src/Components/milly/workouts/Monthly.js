@@ -4,20 +4,6 @@ import 'react-day-picker/lib/style.css'
 import Graph from '../workoutCard/Graph'
 import WorkoutCard from '../workoutCard/workoutCard'
 
-// Firebase
-import {
-    withFirebaseAuth,
-    providers,
-    firebaseAppAuth,
-    db
-} from '../../../Firebase/Firebase'
-import {
-    getUserName,
-    getProfilePicUrl,
-    getUserId,
-    createProfile
-} from '../../../Firebase/functions'
-
 import { Container, Row, Col } from 'reactstrap'
 
 const workoutStyle =

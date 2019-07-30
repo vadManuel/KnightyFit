@@ -7,10 +7,6 @@ import {
     Input,
     Button,
     Container,
-    Dropdown,
-    DropdownItem,
-    DropdownMenu,
-    DropdownToggle,
     Row,
     Col,
     Modal,
@@ -97,9 +93,9 @@ class Dashboard extends React.Component {
                                     if (followingPostsIDs.includes(innerDoc.id)) {
                                         const temp = followingPosts
                                         followingPosts = []
-                                        temp.map(t => {
+                                        temp.map(t => 
                                             followingPostsIDs.includes(t[0]) && followingPosts.push(t)
-                                        })
+                                        )
                                         followingPosts.push([innerDoc.id, innerDoc.data()])
                                     } else {
                                         followingPosts.push([innerDoc.id, innerDoc.data()])
@@ -295,6 +291,7 @@ class Dashboard extends React.Component {
 
         let temp = []
         let tempUID = []
+        // eslint-disable-next-line
         top5.map(contender => {
             if (!tempUID.includes(contender[1].uid)) {
                 temp.push(contender)

@@ -24,7 +24,7 @@ const WorkoutCard = () => {
                 <div className='map-container flot-right'>
                 </div>
             </div>
-            <a class='text-center text-light' onClick={() => scroll.scrollTo(650)}>
+            <a class='text-center text-light' href='/' onClick={() => scroll.scrollTo(650)}>
                 View Workout Statistics >
           </a>
         </div>

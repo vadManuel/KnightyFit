@@ -21,13 +21,6 @@ import {
     Container,
     Form
 } from 'reactstrap'
-import {
-    LineChart,
-    Line,
-    XAxis,
-    YAxis,
-    Legend
-} from 'recharts'
 
 // Firebase
 import {
@@ -187,7 +180,6 @@ class Navigation extends React.Component {
 
     render() {
         const {
-            user,
             signOut
         } = this.props
         const {
@@ -424,7 +416,7 @@ class Navigation extends React.Component {
                                             </Col>
                                         </Row>
                                     )
-                                }
+                                } else { return {}}
                             })}
                         </Col>
                     </div>
