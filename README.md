@@ -4,8 +4,8 @@ Always use these files for the specified reasons below:
 - functions: contains user info and db functions
 If you must create a new function, styled component, and/or import a new media file, then put them in their appropriate file.
 
-Use git to clone this branch:
-### `git clone -b firebase-web https://github.com/milly-lauren/FitTrack.git`
+Use git to clone this repo:
+### `git clone https://github.com/vadManuel/KnightyFit`
 
 Install dependencies with npm:
 ### `npm i`
