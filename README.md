@@ -24,17 +24,17 @@ To start development server:
 * [x] followers/following
 * [x] add activity
 * [x] fix navigation on mobile
-* [ ] database rules
-* [ ] email verification
+* [x] database rules
+* [x] email verification
 * [ ] ~landing page~
-* [ ] style login/register
-* [ ] dashboard
+* [x] style login/register
+* [x] dashboard
     - * [x] social feed
     - * [ ] comment on activity
-    - * [ ] like activity
+    - * [x] like activity
 * [ ] currency management
 * [ ] ~non-working paying showcasing page~
-* [ ] public profile
+* [x] public profile
 * [ ] ~about (pictures of us and stuff lol) ~
 * [ ] personal (editable) profile
 * [ ] ~settings~
